@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #d7d2b4;
+  background: #1db0e1;
 }
 
 .container {
@@ -10,10 +10,10 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/images/IMG_1829.JPG");
+    url("/images/IMG_2049.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(216, 128, 60);
+  color: rgb(145, 146, 174);
   text-align: center;
   padding: 200px 0;
 }
@@ -71,4 +71,63 @@ header a {
   header h3 {
     font-size: 12px;
   }
+}
+header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 16px 32px;
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: white;
+
+}
+footer {
+    background-image: linear-gradient(rgba(1, 1, 13, 0.9), rgba(76, 75, 86, 0.9)), url("/images/IMG_2242.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(137, 115, 115);
+    padding: 100px 0;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.5;
+    margin-right: 20px;
+    line-height: 22px;
+}
+
+footer url {
+    padding: 0;
+}
+
+footer li {
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+section {
+    max-width: 80%;
+    margin: 
+    padding: 100px;
+    unicode-bidi: isolate;
+}
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 64px;
 }
